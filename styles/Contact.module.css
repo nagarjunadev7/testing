@@ -1,0 +1,11 @@
+.contact{
+    position: relative;
+    top: 20vh;
+    text-align: center;
+    line-height: 2;
+}
+@media screen and (max-width: 480px) {
+    .contact{
+        top: 6vh;  
+    } 
+}

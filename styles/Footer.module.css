@@ -1,0 +1,12 @@
+.container{
+    position: relative;
+    background-color: #03001C;
+    height: 12vh;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.container ul {
+    list-style: none;
+}

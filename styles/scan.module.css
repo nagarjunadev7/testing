@@ -1,0 +1,16 @@
+.scan{
+    position: relative;
+    top: 20vh;
+    width: 60vw;
+    left: 20%;
+    text-align: center;
+}
+.result{
+    color: rgb(215, 215, 42);
+    font-size: 1.3rem;
+}
+@media screen and (max-width: 480px) {
+    .scan{
+        top: -3vh;
+    }
+}

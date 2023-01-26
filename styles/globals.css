@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+}
+
+body {
+  color: #fff;
+  background: linear-gradient(270deg, #6c466d 0%, #05114d 100%);
+  font-family: cursive, roboto;
+  font-size: 1.2rem;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(215, 215, 42);
+}
+a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 650px) {
+  body{
+    font-family: roboto;
+  }
+}

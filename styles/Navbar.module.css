@@ -1,0 +1,39 @@
+.navbar{
+    position: relative;
+    top: 15vh;
+    width: 60vw;
+    left: 17%;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 1.4rem;
+}
+.navbar ul a{
+    /* border-right: 3px solid white; */
+    padding-right: 10px;
+    text-decoration: underline;
+}
+.navbar ul a:hover{
+    color: rgb(255, 255, 0);
+}
+.navbar ul a:active{
+    color: #fff;
+    text-decoration: underline;
+}
+@media screen and (max-width: 1100px) {
+    .navbar ul{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 800px) {
+    .navbar ul{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .navbar{
+        display: none;
+    }
+}
