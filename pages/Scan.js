@@ -32,8 +32,8 @@ function Scan() {
           constraints={{ facingMode: "environment" }}
           style={{ width: "40%", height: "40%" }}
         />
-        <Link href={data} target={"_blank"}>
-        <h3 className={styles.result}>{data}</h3>
+        <Link href={data} target={"_blank"} className={styles.resultone}>
+        <p className={styles.result}>{data}</p>
         </Link>
         <br />
         <br />
