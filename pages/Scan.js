@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState } from "react";
 import { QrReader } from "react-qr-reader";
 import Footer from "../components/Footer";
@@ -31,7 +32,9 @@ function Scan() {
           constraints={{ facingMode: "environment" }}
           style={{ width: "40%", height: "40%" }}
         />
-        <p className={styles.result}>{data}</p>
+        <Link href={data} target={"_blank"}>
+        <h3 className={styles.result}>{data}</h3>
+        </Link>
         <br />
         <br />
         <h3>Qr Code Scanner & Qr code scanner uses:</h3>

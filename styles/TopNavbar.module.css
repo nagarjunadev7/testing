@@ -45,7 +45,7 @@
 }
 @media screen and (max-width: 480px) {
   .mainheading{
-    font-family: roboto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.7rem;
   }
   .topnavbar ul {
@@ -57,7 +57,7 @@
     height: 70px;
   }
   .topnavbar {
-    height: 17vh;
+    height: 13vh;
   }
   .topnavbar p{
     display: none;
