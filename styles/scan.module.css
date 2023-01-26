@@ -29,5 +29,7 @@
     .result{
         position: relative;
         left: -30%;
+        top: 2vh;
+        margin-bottom: 2vh;
     }
 }
