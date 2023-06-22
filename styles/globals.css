@@ -12,10 +12,12 @@ body {
 }
 
 body {
-  color: #fff;
-  background: linear-gradient(270deg, #6c466d 0%, #05114d 100%);
+/*   color: #fff; */
+/*   background: linear-gradient(270deg, #6c466d 0%, #05114d 100%); */
+  background:#fff;
   font-family: cursive, roboto;
   font-size: 1.2rem;
+  color:black;
 }
 
 a{
